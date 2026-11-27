@@ -26,6 +26,12 @@
      ALLOWED FREELY: adding FAQ/copy blocks, new cards, internal links,
      accessibility fixes, and any change that cannot reduce clicks.
      Log every edit to Notion with date, what, why, and the before/after.
+     ------------------------------------------------------------
+     LINK RULE (27 Nov 2026): only link to hosts listed in owned-domains.json
+     in digipincode-india. hospitalsnearme.pages.dev is NOT ours - it is a
+     third-party hospital directory. Never link to it, never copy it into a
+     canonical, sitemap or robots file. .github/workflows/link-guard.yml fails
+     the build if any foreign host appears anywhere in this repo.
      ============================================================ -->
 <title>Salons Near Me — Find Nearby, Free Map</title>
 <meta name="description" content="salons & barbers. Find them near you on a free OpenStreetMap map with directions. No signup, no API key.">
